@@ -10,7 +10,9 @@ function onSubmitForm(evt) {
   evt.preventDefault();
 
   let delay = Number(refs.form.delay.value);
+
   let step = Number(refs.form.step.value);
+
   let amount = Number(refs.form.amount.value);
 
   for (let i = 1; i <= amount; i += 1) {
